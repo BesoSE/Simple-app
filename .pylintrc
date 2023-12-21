@@ -1,0 +1,24 @@
+[MASTER]
+extension-pkg-whitelist=django
+
+[MESSAGES CONTROL]
+disable =
+    missing-function-docstring,
+    missing-class-docstring,
+    missing-module-docstring,
+    abstract-method,
+    invalid-name,
+    no-member,
+    too-few-public-methods,
+    unused-argument,
+    unused-import
+
+[TYPECHECK]
+ignored-classes =
+    django.db.models.manager,
+    django.core.urlresolvers.RegexURLResolver,
+    django.core.urlresolvers.RegexURLPattern,
+    django.views.decorators.cache.CacheMixin
+
+[REPORTS]
+output-format = colorized

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+myenv
+.env
+.idea/*
+.terraform
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+terraform.tfstate
+
